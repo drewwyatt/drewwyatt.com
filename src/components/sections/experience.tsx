@@ -1,7 +1,8 @@
 import * as React from 'react';
 import { Row, Col } from 'react-bootstrap';
+import Box from 'components/blocks/box';
 import Job from 'models/job';
-const jobs: Job[] = require('../../data/jobs.json');
+const jobs = require('../../data/jobs.json') as Job[];
 
 const Listing = ({ where, year, profession, description }: Job) => (
     <div className="job clearfix">
@@ -17,12 +18,10 @@ const Listing = ({ where, year, profession, description }: Job) => (
 );
 
 const Experience = () => (
-    <Row>
-        <Col xs={12} sm={7}>
-            <h2>Work Experience</h2>
-            {jobs.map((j, idx) => <Listing key={`joblisting_${idx}`} {...j} />)}
-        </Col>
-    </Row>
+    <Box>
+        <h2>Work Experience</h2>
+        {jobs.map((j, idx) => <Listing key={`joblisting_${idx}`} {...j} />)}
+    </Box>
 );
 
 export default Experience;
