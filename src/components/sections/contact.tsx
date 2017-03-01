@@ -1,4 +1,5 @@
 import * as React from 'react';
+
 import Box from 'components/blocks/box';
 import ContactDetail from 'models/contact-detail';
 const details = require('../../data/contact.json') as ContactDetail[];
@@ -9,7 +10,7 @@ const Link = ({ to, children }: { to?: string; children?: any; }) => {
     }
     
     return <span>{children}</span>;
-}
+};
 
 const ContactItem = ({ icon, text, link }: ContactDetail) => (
     <div className="contact-item">
