@@ -1,0 +1,8 @@
+{
+  "name": "drewwyatt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:drewwyatt/drewwyatt.com.git",
+  "author": "Drew Wyatt <drew.j.wyatt@gmail.com>",
+  "license": "MIT"
+}
