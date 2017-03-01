@@ -5,6 +5,9 @@
     "repository": "git@github.com:drewwyatt/drewwyatt.com.git",
     "author": "Drew Wyatt <drew.j.wyatt@gmail.com>",
     "license": "MIT",
+    "scripts": {
+        "build": "NODE_ENV=PRODUCTION webpack -p"
+    },
     "dependencies": {
         "@types/node": "^7.0.5",
         "@types/react": "^15.0.13",
