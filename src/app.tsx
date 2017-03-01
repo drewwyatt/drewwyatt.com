@@ -6,6 +6,7 @@ import Contact from 'components/sections/contact';
 import Experience from 'components/sections/experience';
 import Header from 'components/sections/header';
 import Projects from 'components/sections/projects';
+import Skills from 'components/sections/skills';
 
 class App extends React.Component<void, void> {
     render(): JSX.Element {
@@ -20,6 +21,7 @@ class App extends React.Component<void, void> {
                     </Col>
                     <Col xs={12} sm={5}>
                         <Contact />
+                        <Skills />
                     </Col>
                 </Row>
             </div>

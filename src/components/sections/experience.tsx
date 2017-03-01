@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 import Box from 'components/blocks/box';
 import Job from 'models/job';
 const jobs = require('../../data/jobs.json') as Job[];
