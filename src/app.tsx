@@ -1,5 +1,6 @@
 import * as React from 'react';
 import AboutMe from 'components/sections/about-me';
+import Experience from 'components/sections/experience';
 import Header from 'components/sections/header';
 
 class App extends React.Component<void, void> {
@@ -8,6 +9,7 @@ class App extends React.Component<void, void> {
             <div id="container">
                 <Header />
                 <AboutMe />
+                <Experience />
             </div>
         );
     }
