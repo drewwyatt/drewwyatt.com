@@ -2,6 +2,7 @@ language: node_js
 node_js:
 - '7.2'
 cache: yarn
+script: yarn run build
 deploy:
   provider: s3
   access_key_id: AKIAJ3O3ML3WUGB5WMVA
