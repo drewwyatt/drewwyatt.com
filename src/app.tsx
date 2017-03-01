@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { Row, Col } from 'react-bootstrap';
+
+import { Col, Row } from 'react-bootstrap';
 
 import AboutMe from 'components/sections/about-me';
 import Contact from 'components/sections/contact';
@@ -11,7 +12,7 @@ import Skills from 'components/sections/skills';
 class App extends React.Component<void, void> {
     render(): JSX.Element {
         return (
-            <div id="container">
+            <div className="container">
                 <Header />
                 <Row>
                     <Col xs={12} sm={7}>
