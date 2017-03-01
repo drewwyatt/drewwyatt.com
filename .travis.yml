@@ -9,6 +9,7 @@ deploy:
   secret_access_key:
     secure: HKchlI7W+K/gEnBplGK3GkmQcOGDsBZKvRYzO8SnyWEcAgKw5qq1YKkWM4mJFjK+yExybINv2p6QDZTX1QsZ7D28XKWBCS5lXonHLX0j1JsHrdFRCLmwSFh2O63vsHMwJuyKws/vvk2QBhpNB/V04QhHV12UCX/C8NjgL8xtDjDEQrpI+gKruTUXILLRs3ncsoEZ8m8JfLzy/LHpi52d+h9XIuY3kkBBHSSWjTaOyeYNHUpB0LATPpde7iwTkVk+7fyYKhm+P9umrwlvKyx0BH/uHY3TlIuiJ/9us1yTEHBUj7CgxjS+X4ZQhqdPM21W2yKVL2v3XjJcliZYSGWIW6tzNsTMULxn0/HJ0U6WH8L+Fs8RMVYxwqmy1I6+VfYGEgM+nGJOSytds2FqGpZrgkyZ3PNSnI1TjolX/YNghaUfB22paLw5V+I64cvgtWyRA3WNYwyW8wjNVsT7E2U9ygf2hRDDF8EqDE4s+t9VtndsoHOlVmGUegouWXY0gSTAz239xZ6ZTB/Jbrtn61lV9Z/f/U9o1WYT3ECJnL/+tr/ZzFCJBrhT/rlbguVL40txhoYKZ6H5gyEK0kx7arrd8Fmx0eVkNkY3qt7EV3Sz3XyR5jGiAzd/dOk9XXft3TTgXsGFDoRaTzoHIfXs0klHpEMV/JFQU69lmBqt5OF+fwA=
   bucket: drewwyatt.com
+  local-dir: dist
   acl: public_read
   on:
     repo: drewwyatt/drewwyatt.com
