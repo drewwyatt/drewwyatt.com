@@ -1,20 +1,20 @@
 [
     {
+        "where": "Bottle Rocket Studios",
+        "year": "2015-Present",
+        "profession": "Lead Engineer",
+        "description": "I lead (mostly web) projects for huge brands and help deliver incredible user experiences."
+    },
+    {
+        "where": "ACTIVE Network",
+        "year": "2015-2015",
+        "profession": "Software Engineer II",
+        "description": "Developed real-time web applications for the FellowshipOne product line."
+    },
+    {
         "where": "CTSI",
         "year": "2013-2015",
         "profession": "Web / Application Developer",
-        "description": "Developed integrated solutions to help clients achieve their goals and improve their workflow."
-    },
-    {
-        "where": "Mighty Wash",
-        "year": "2012-2013",
-        "profession": "Brand Manager",
-        "description": "Improved workflows with software solutions, developed advertising/promotional plans, and created online presence."
-    },
-    {
-        "where": "FarisWheel Productions",
-        "year": "2012-2013",
-        "profession": "Web Developer",
-        "description": "I turned designs into templates, and implemented a custom CMS, as well as worked with clients to develop and implement custom applications."
+        "description": "Creafted solutions to help clients achieve their goals and improve their workflow."
     }
 ]
