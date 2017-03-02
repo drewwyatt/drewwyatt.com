@@ -1,14 +1,17 @@
 [
     {
-        "name": "foo project",
-        "description": "boom boom pow."
+        "name": "Qdoba.com",
+        "description": "Full online ordering experience backed by NCR Aloha. Qdoba.com was built using React, Redux, Typescript, and Webpack.",
+        "link": "https://www.qdoba.com/"
     },
     {
-        "name": "foo project",
-        "description": "boom boom pow."
+        "name": "PinYada",
+        "description": "Make someone's day with PinYada, the free messaging app that is all about making someone's day and having your day made. It's super easy to pin a Yada! Choose whose day you want to make, create your day-making message and pin it to the perfect time or place. The smallest moments can have the biggest impact so when you're inspired to make someone's day, PinYada!",
+        "link": "http://pinyadaapp.com/"
     },
     {
-        "name": "foo project",
-        "description": "boom boom pow."
+        "name": "Hallmark: AppleTV",
+        "description": "boom boom pow.",
+        "link": "http://www.hallmarkchanneleverywhere.com/"
     }
 ]

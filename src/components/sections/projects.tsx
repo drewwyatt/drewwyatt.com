@@ -3,12 +3,12 @@ import Box from 'components/blocks/box';
 import Project from 'models/project';
 const projects = require('../../data/projects.json') as Project[];
 
-const Listing = ({ name, description }: Project) => (
+const Listing = ({ name, description, link }: Project) => (
     <li>
-        <div className="description pull-right">
+        <a href={link} target="_blank" className="description pull-right">
             <h3>{name}</h3>
             <p>{description}</p>
-        </div>
+        </a>
     </li>
 );
 
