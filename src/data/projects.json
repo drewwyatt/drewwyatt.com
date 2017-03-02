@@ -1,17 +1,17 @@
 [
     {
-        "name": "Qdoba.com",
-        "description": "Full online ordering experience backed by NCR Aloha. Qdoba.com was built using React, Redux, Typescript, and Webpack.",
+        "name": "Lead Engineer: Qdoba.com",
+        "description": "From the flavor of our restaurant's bold and distinctive decor, to the employees that make us who we are, right down to the food itself. We believe in flavor without compromise, the ability to add guac and queso, at no extra charge. Our promise is an experience that delivers on new creations, old classics, and the ability to create your own masterpiece. We encourage guests to explore different flavor combinations - try something new, change up the sauce - and if you're not satisfied, just let us know and we'll make it right; guaranteed.",
         "link": "https://www.qdoba.com/"
     },
     {
-        "name": "PinYada",
+        "name": "Ruby on Rails Engineer: PinYada",
         "description": "Make someone's day with PinYada, the free messaging app that is all about making someone's day and having your day made. It's super easy to pin a Yada! Choose whose day you want to make, create your day-making message and pin it to the perfect time or place. The smallest moments can have the biggest impact so when you're inspired to make someone's day, PinYada!",
         "link": "http://pinyadaapp.com/"
     },
     {
-        "name": "Hallmark: AppleTV",
-        "description": "boom boom pow.",
+        "name": "TVML/TVJS Engineer: Hallmark, AppleTV",
+        "description": "Watch your favorite Hallmark Channel original shows and movies wherever and whenever you want with the Hallmark Channel Everywhere app available for iPhone, iPad, Apple TV or iPod touch!",
         "link": "http://www.hallmarkchanneleverywhere.com/"
     }
 ]
