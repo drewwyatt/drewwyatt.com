@@ -4,6 +4,7 @@ node_js:
 cache: yarn
 script: yarn run build
 deploy:
+	skip_cleanup: true
   provider: s3
   access_key_id: AKIAJ3O3ML3WUGB5WMVA
   secret_access_key:
