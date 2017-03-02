@@ -18,8 +18,15 @@ const defaultRules = [
         ]
     },
     {
-        test: /\.json?$/,
+        test: /\.json$/,
         loader: 'json-loader'
+    },
+    {
+        test: /\.md$/,
+        use: [
+            'html-loader',
+            'markdown-loader',
+        ]
     }
 ];
 
