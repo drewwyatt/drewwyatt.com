@@ -4,13 +4,15 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const path = require('path');
+const OptimizeCssPlugin = require('optimize-css-assets-webpack-plugin');
 
 const defaultPlugins = [
         new HtmlWebpackPlugin({ template: path.resolve('./src/index.html') }),    
         new CopyWebpackPlugin([{
             from: './src/assets',
             to: './assets'
-        }])
+        }]),
+        new OptimizeCssPlugin(),
 ];
 
 const envPlugins = isProduction ?
@@ -23,7 +25,8 @@ const envPlugins = isProduction ?
         new ExtractTextPlugin({ 
             filename: '[name].[contenthash].css', 
             allChunks: true 
-        })
+        }),
+        
     ] :
     [
         new webpack.HotModuleReplacementPlugin(),

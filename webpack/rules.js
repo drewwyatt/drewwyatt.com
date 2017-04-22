@@ -1,7 +1,7 @@
 const isProduction = require('./is-production');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-const cssExtractor = ExtractTextPlugin.extract({ fallbackLoader: 'style-loader', loader: `css-loader`});
+const cssExtractor = ExtractTextPlugin.extract({ use: 'style-loader', loader: `css-loader`});
 
 const defaultRules = [
     {
