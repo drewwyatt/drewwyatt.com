@@ -5,40 +5,44 @@ const Page: FC = () => (
   <main>
     <article className="me">
       <img className="avatar" src="/avatar.png" />
-      <h1 className="green">👋 Oh, hai!</h1>
-      <h2>
+      <h2 className="me-content green">👋 Oh, hai!</h2>
+      <h1 className="me-content">
         I&apos;m <span className="pink bold">Drew Wyatt</span>
-      </h2>
-      <p>
-        I make the internet. Right now I mostly make it for{' '}
-        <a href="https://www.onepeloton.com/">Peloton Interactive</a>.
-      </p>
-      <p>
-        I gave a talk at React Week in 2019 called{' '}
-        <span className="pink">Hooked on Context</span>, you can find the{' '}
-        <a href="#">video of that here</a>, and the <a href="#">sample code here</a>.
-      </p>
-      <p>
-        My email address is{' '}
-        <a className="green" href="mailto:drew.j.wyatt@gmail.com">
+      </h1>
+      <p className="me-content">
+        <a target="_blank" rel="noreferrer" href="mailto:drew.j.wyatt@gmail.com">
           drew.j.wyatt@gmail.com
         </a>
       </p>
     </article>
+    <p>
+      I make the internet.
+      <br />
+      Right now I mostly make it for{' '}
+      <a target="_blank" rel="noreferrer" href="https://www.onepeloton.com/">
+        Peloton Interactive
+      </a>
+      .
+    </p>
+    <p>
+      I gave a talk at React Week in 2019 called{' '}
+      <span className="pink">Hooked on Context</span>, you can find the{' '}
+      <a href="#">video of that here</a>, and the <a href="#">sample code here</a>.
+    </p>
     <nav>
       <fieldset>
         <legend>You can also find me at these places</legend>
-        <ul>
-          <li>
+        <ul className="links">
+          <li className="link">
             <a href="https://github.com/drewwyatt" rel="noreferrer" target="_blank">
               <Github />
-              @drewwyatt
+              &nbsp;@drewwyatt
             </a>
           </li>
-          <li>
-            <a href="https://twitter.com/djwyatt">
+          <li className="link">
+            <a href="https://twitter.com/djwyatt" rel="noreferrer" target="_blank">
               <Twitter />
-              @djwyatt
+              &nbsp;@djwyatt
             </a>
           </li>
         </ul>

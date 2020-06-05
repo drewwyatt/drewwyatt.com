@@ -11,6 +11,59 @@
   --yellow: #ffff80;
 }
 
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div,
+div#__next > div > div {
+  background: #22212c;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  color: var(--foreground);
+  font-family: var(--firaCode);
+  text-align: center;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+  width: 100%;
+}
+
+a {
+  color: var(--cyan);
+}
+
+a svg {
+  display: inline-block;
+  fill: var(--cyan);
+  max-width: 20px;
+}
+
+a svg path {
+  fill: var(--cyan);
+}
+
+a:visited {
+  color: var(--purple);
+}
+
+a:visited svg {
+  fill: var(--purple);
+}
+
 .bold {
   font-weight: 600;
 }
@@ -43,51 +96,53 @@
   color: var(--yellow);
 }
 
-html,
-body,
-body > div:first-child,
-div#__next,
-div#__next > div,
-div#__next > div > div {
-  background: #22212c;
-  color: var(--foreground);
-  font-family: var(--firaCode);
-  height: 100%;
-}
-
-main {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: center;
-}
-
-a {
-  color: var(--cyan);
-}
-
-a svg {
-  fill: var(--cyan);
-  max-width: 20px;
-}
-
-a:visited {
-  color: var(--yellow);
-}
-
-a:visited svg {
-  fill: var(--yellow);
-}
-
 .me {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   text-align: center;
+}
+
+.me-content {
+  margin: 6px 0;
+  padding: 0;
 }
 
 .avatar {
   border-radius: 50%;
-  width: 50%;
+  margin: 0 auto 20px;
   max-width: 200px;
+  width: 50%;
+}
+
+nav {
+  margin-top: 20px;
+  width: 100%;
+}
+
+fieldset {
+  border-color: var(--yellow);
+  color: var(--yellow);
+}
+
+legend {
+  color: var(--yellow);
+}
+
+.links {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: inherit 0;
+}
+
+.link,
+.link a {
+  display: flex;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
 }
