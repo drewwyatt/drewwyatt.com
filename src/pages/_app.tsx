@@ -10,7 +10,7 @@ type Props = { Component: NextPage; pageProps: any }
 const RootComponent: NextPage<Props> = ({ Component, pageProps }) => (
   <>
     <Head>
-      <title>👋 Oh, hai! I'm Drew Wyatt.</title>
+      <title>👋 Oh, hai! I&apos;m Drew Wyatt.</title>
       <meta
         name="description"
         content="Drew Wyatt is a software developer and native Texan living in New York City."

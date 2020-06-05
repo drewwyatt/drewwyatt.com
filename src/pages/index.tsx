@@ -7,7 +7,7 @@ const Page: FC = () => (
       <img className="avatar" src="/avatar.png" />
       <h1 className="green">👋 Oh, hai!</h1>
       <h2>
-        I'm <span className="pink bold">Drew Wyatt</span>
+        I&apos;m <span className="pink bold">Drew Wyatt</span>
       </h2>
       <p>
         I make the internet. Right now I mostly make it for{' '}
