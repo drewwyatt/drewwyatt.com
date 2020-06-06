@@ -1,8 +1,12 @@
 import React, { FC } from 'react'
 
-const EmptySpace: FC = () => (
+type Props = {
+  nonBreaking?: boolean
+}
+
+const EmptySpace: FC<Props> = ({ nonBreaking }) => (
   <>
-    <span className="empty-space">&nbsp;</span>
+    <span className="empty-space">{nonBreaking ? ' ' : ' '}</span>
     <style jsx>{`
       .empty-space {
         text-decoration: none !important;
