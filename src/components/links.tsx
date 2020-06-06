@@ -27,7 +27,6 @@ const Links: FC = () => (
     </nav>
     <style jsx>{`
       .nav {
-        margin-top: 20px;
         width: 100%;
       }
 

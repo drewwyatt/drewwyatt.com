@@ -22,6 +22,13 @@ const Me: FC = () => (
         text-align: center;
       }
 
+      .avatar {
+        border-radius: 50%;
+        margin: 0 auto 20px;
+        max-width: 200px;
+        width: 50%;
+      }
+
       .content {
         margin: 0;
         padding: 0;
