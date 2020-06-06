@@ -11,11 +11,8 @@ type Props = { Component: NextPage; pageProps: any }
 const RootComponent: NextPage<Props> = ({ Component, pageProps }) => (
   <>
     <Head>
-      <title>Oh, hai! I&apos;m Drew Wyatt</title>
-      <meta
-        name="description"
-        content="Software developer and native Texan living in New York City"
-      />
+      <title>I&apos;m Drew Wyatt</title>
+      <meta name="description" content="I make the internet." />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link
         rel="icon"
@@ -29,6 +26,14 @@ const RootComponent: NextPage<Props> = ({ Component, pageProps }) => (
         href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap"
         rel="stylesheet"
       />
+
+      <meta property="og:title" content="I'm Drew Wyatt" />
+      <meta property="og:description" content="I make the internet." />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="/share-image.jpg" />
+      <meta property="og:image:type" content="image/jpeg" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="1200" />
     </Head>
     <Component {...pageProps} />
   </>
