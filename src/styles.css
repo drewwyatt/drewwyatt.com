@@ -1,0 +1,90 @@
+:root {
+  --firaCode: 'Fira Code', monospace;
+
+  --foreground: #f8f8f2;
+  --cyan: #80ffea;
+  --green: #8aff80;
+  --orange: #ffca80;
+  --pink: #ff80bf;
+  --purple: #9580ff;
+  --red: #ff9580;
+  --yellow: #ffff80;
+}
+
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+  height: 100%;
+}
+
+html,
+body {
+  background: #22212c;
+}
+
+* {
+  box-sizing: border-box;
+  color: var(--foreground);
+  font-family: var(--firaCode);
+  text-align: center;
+}
+
+a {
+  color: var(--cyan);
+}
+
+a svg {
+  display: inline-block;
+  fill: var(--cyan);
+  width: 20px;
+}
+
+a svg path {
+  fill: var(--cyan);
+}
+
+a:visited {
+  color: var(--purple);
+}
+
+a:visited svg {
+  fill: var(--purple);
+}
+
+a:visited svg path {
+  fill: var(--purple);
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.cyan {
+  color: var(--cyan);
+}
+
+.green {
+  color: var(--green);
+}
+
+.orange {
+  color: var(--orange);
+}
+
+.pink {
+  color: var(--pink);
+}
+
+.purple {
+  color: var(--purple);
+}
+
+.red {
+  color: var(--red);
+}
+
+.yellow {
+  color: var(--yellow);
+}

@@ -1,31 +1,21 @@
 {
-    "compilerOptions": {
-        "target": "es6",
-        "module": "commonjs",
-        "declaration": false,
-        "removeComments": true,
-        "sourceMap": true,
-        "noImplicitAny": false,
-        "moduleResolution": "node",
-        "jsx": "preserve",
-		"strictNullChecks": true,
-        "noUnusedLocals": true,
-        "baseUrl": "src"
-    },
-    "exclude": [
-        "node_modules",
-		"dist",
-		"./src/**/*.d.ts"
-    ],
-    "filesGlob": [
-		"./src/**/*.ts",
-        "./src/**/*.tsx"
-    ],
-    "compileOnSave": false,
-    "buildOnSave": false,
-    "atom": {
-        "rewriteTsconfig": false
-    }
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "paths": { "~/*": ["./src/*"] },
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es5"
+  },
+  "exclude": ["node_modules"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }
-
-
