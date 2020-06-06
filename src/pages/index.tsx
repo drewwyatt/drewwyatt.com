@@ -1,30 +1,13 @@
 import React, { FC } from 'react'
+import About from '../components/about'
 import EmptySpace from '../components/empty-space'
-import Me from '../components/me'
 import { Github, Twitter } from '../components/icons'
+import Me from '../components/me'
 
 const Page: FC = () => (
   <div className="container">
     <Me />
-    <div className="about">
-      <p>
-        I make the internet.
-        <br />
-        Right now I mostly make it for
-        <EmptySpace />
-        <a target="_blank" rel="noreferrer" href="https://www.onepeloton.com/">
-          Peloton Interactive
-        </a>
-        .
-      </p>
-      <p>
-        I gave a talk at React Week in 2019 called
-        <EmptySpace />
-        <span className="pink">Hooked on Context</span>, you can find the
-        <EmptySpace />
-        <a href="#">video of that here</a>, and the <a href="#">sample code here</a>.
-      </p>
-    </div>
+    <About />
     <nav>
       <fieldset>
         <legend>You can also find me at these places</legend>
