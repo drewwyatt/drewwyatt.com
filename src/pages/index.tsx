@@ -3,7 +3,7 @@ import EmptySpace from '../components/empty-space'
 import { Github, Twitter } from '../components/icons'
 
 const Page: FC = () => (
-  <main>
+  <div className="container">
     <article className="me">
       <img className="avatar" src="/avatar.png" />
       <h2 className="me-content green">👋 Oh, hai!</h2>
@@ -53,7 +53,7 @@ const Page: FC = () => (
         </ul>
       </fieldset>
     </nav>
-  </main>
+  </div>
 )
 
 export default Page

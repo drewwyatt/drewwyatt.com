@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import React from 'react'
 
+import 'normalize.css'
 import '../styles.css'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

@@ -17,10 +17,12 @@ body > div:first-child,
 div#__next,
 div#__next > div,
 div#__next > div > div {
-  background: #22212c;
   height: 100%;
-  margin: 0;
-  padding: 0;
+}
+
+html,
+body {
+  background: #22212c;
 }
 
 * {
@@ -30,7 +32,7 @@ div#__next > div > div {
   text-align: center;
 }
 
-main {
+.container {
   align-items: center;
   display: flex;
   flex-direction: column;
