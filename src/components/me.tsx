@@ -33,6 +33,12 @@ const Me: FC = () => (
         margin: 0;
         padding: 0;
       }
+
+      @media (max-width: 600px) {
+        .avatar {
+          width: 35%;
+        }
+      }
     `}</style>
   </>
 )

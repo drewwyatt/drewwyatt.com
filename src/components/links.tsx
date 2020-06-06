@@ -33,10 +33,13 @@ const Links: FC = () => (
       .container {
         border-color: var(--yellow);
         color: var(--yellow);
+        text-align: center;
       }
 
       .label {
         color: var(--yellow);
+        font-size: 1em;
+        text-align: center;
       }
 
       .links {
@@ -55,6 +58,18 @@ const Links: FC = () => (
         height: 30px;
         line-height: 30px;
         vertical-align: middle;
+      }
+
+      @media (max-width: 600px) {
+        .label {
+          font-size: 0.75em;
+        }
+      }
+
+      @media (max-width: 320px) {
+        .label {
+          font-size: 0.65em;
+        }
       }
     `}</style>
   </>

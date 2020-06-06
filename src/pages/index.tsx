@@ -10,7 +10,7 @@ const Page: FC = () => (
       <About />
       <Links />
     </div>
-    <style jsx>{`
+    <style global jsx>{`
       .container {
         align-items: center;
         display: flex;
@@ -21,6 +21,10 @@ const Page: FC = () => (
         max-width: 600px;
         padding: 20px;
         width: 100%;
+      }
+
+      .container > * {
+        margin: 10px 0;
       }
     `}</style>
   </>
