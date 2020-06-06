@@ -15,8 +15,7 @@ html,
 body,
 body > div:first-child,
 div#__next,
-div#__next > div,
-div#__next > div > div {
+div#__next > div {
   height: 100%;
 }
 
@@ -107,36 +106,4 @@ a:visited svg path {
   margin: 0 auto 20px;
   max-width: 200px;
   width: 50%;
-}
-
-nav {
-  margin-top: 20px;
-  width: 100%;
-}
-
-fieldset {
-  border-color: var(--yellow);
-  color: var(--yellow);
-}
-
-legend {
-  color: var(--yellow);
-}
-
-.links {
-  width: 100%;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 0;
-  margin: inherit 0;
-}
-
-.link,
-.link a {
-  display: flex;
-  height: 30px;
-  line-height: 30px;
-  vertical-align: middle;
 }
