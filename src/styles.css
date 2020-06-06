@@ -64,6 +64,10 @@ a:visited svg {
   fill: var(--purple);
 }
 
+a:visited svg path {
+  fill: var(--purple);
+}
+
 .bold {
   font-weight: 600;
 }
