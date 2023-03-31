@@ -30,6 +30,7 @@ module.exports = {
       },
     ],
     'prettier/prettier': 'error',
+    'react/no-unknown-property': 'off',
   },
   env: {
     node: true,
