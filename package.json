@@ -12,7 +12,8 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "eslint --ext=ts,tsx src/**",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "next": "13.2.4",
